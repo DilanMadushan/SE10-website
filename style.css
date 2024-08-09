@@ -1,22 +1,22 @@
-*{
+* {
     margin: 0;
-    padding: 0;  
+    padding: 0;
     text-decoration: none;
 }
 
-body{
+body {
     background-color: #F4F4F5;
     box-sizing: border-box;
     font-family: 'Poppins';
 }
 
-.container{
+.container {
     margin: 30px 5%;
 }
 
 /* --------------------------- navBar -------------------------- */
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,26 +24,26 @@ header{
     border-radius: 100px;
 }
 
-nav ul li{
+nav ul li {
     display: inline;
 }
 
-nav ul li a{
+nav ul li a {
     margin: 0 20px;
     color: #000;
     font-size: 20px;
     font-weight: 1000;
     padding: 10px 0;
     transition: color 0.3s;
-    
+
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #E40020;
 }
 
 
-.hedder-image{
+.hedder-image {
     width: 100px;
     margin: 5px 5%;
 }
@@ -51,7 +51,7 @@ nav ul li a:hover{
 /* --------------------------- Search bar -------------------------- */
 
 
-#searchSection{
+#searchSection {
     background-color: white;
     display: flex;
     justify-content: space-evenly;
@@ -60,7 +60,7 @@ nav ul li a:hover{
     border-radius: 42px;
 }
 
-#searchBar{
+#searchBar {
     width: 502px;
     height: 60px;
     background-color: #F5F5F5;
@@ -72,12 +72,12 @@ nav ul li a:hover{
 }
 
 
-#searchSection div form{
+#searchSection div form {
     padding: 10px 10px;
-    
+
 }
 
-#searchBar form input{
+#searchBar form input {
     height: 30px;
     width: 415px;
     background-color: #F5F5F5;
@@ -86,26 +86,26 @@ nav ul li a:hover{
     margin-top: 5px;
 }
 
-#searchSection div form input:focus{
+#searchSection div form input:focus {
     outline: none;
 }
 
-#searchSection div form i{
+#searchSection div form i {
     margin: 7px 14px;
     font-size: 23px;
     color: rgb(179, 171, 171);
-    
+
 }
 
 #searchSection ul {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    list-style: none; 
+    justify-content: center;
+    align-items: center;
+    list-style: none;
 }
 
 
-#buttonDiv ul li a{
+#buttonDiv ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,33 +122,33 @@ nav ul li a:hover{
     transition: background-color 0.3s, color 0.3s;
 }
 
-#buttonDiv ul li a:active{
+#buttonDiv ul li a:active {
     background: #FEF4F4;
     color: #E40020;
 }
 
-#buttonDiv ul li a:hover{
+#buttonDiv ul li a:hover {
     background: #FEF4F4;
     color: #E40020;
-    
+
 }
 
 /* --------------------------- blog section -------------------------- */
 
 
-#blogSection{
+#blogSection {
     padding: 10px 20px;
     background: #FFFFFF;
     border-radius: 30px;
 }
 
-.post{
+.post {
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     border-radius: 30px;
     flex-direction: row;
-    height:500px;
+    height: 500px;
     position: relative;
     box-shadow: 0px 4px 4px 0px #00000040;
     margin-top: 5%;
@@ -156,14 +156,14 @@ nav ul li a:hover{
 }
 
 
-#blogImage{
+#blogImage {
     width: 500px;
     height: 333px;
     margin-bottom: 50px;
-    
+
 }
 
-.aboutDiv{
+.aboutDiv {
     display: flex;
     flex-direction: column;
     margin: 12px 10px;
@@ -173,20 +173,20 @@ nav ul li a:hover{
     left: 180px;
 }
 
-.aboutDiv h1{
+.aboutDiv h1 {
     text-align: center;
     font-family: 'Poppins';
     font-size: 44px;
 }
 
-.aboutDiv p{
+.aboutDiv p {
     text-align: left;
     width: 450px;
     font-size: 18px;
     line-height: 2;
 }
 
-.blogImage{
+.blogImage {
     width: 46%;
     height: 74%;
     position: absolute;
@@ -194,7 +194,7 @@ nav ul li a:hover{
     top: 44px;
 }
 
-.bottom-bar{
+.bottom-bar {
     display: flex;
     gap: 80px;
     position: absolute;
@@ -207,19 +207,19 @@ nav ul li a:hover{
     font-size: 18px;
 }
 
-.post a{
+.post a {
     position: absolute;
     right: 45px;
     bottom: 13px;
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Inter';
-    padding: 19px 32px;
+    padding: 18px 23px;
     background: linear-gradient(90deg, #E40020 0%, rgba(254, 1, 0, 0.32) 100%);
     color: white;
     border-radius: 30px;
 }
 
-.post h3{
+.post h3 {
     position: absolute;
     right: 3px;
     padding: 12px 16px;
@@ -230,39 +230,58 @@ nav ul li a:hover{
 }
 
 
-#blogSection .post:last-child{
+#blogSection .post:last-child {
     margin-bottom: 15%;
 }
 
 
-
-/* <section class="container" id="blogSection">
-<div class="post">
+/* ------------------------------ navPage ----------------------------- */
 
 
-    <img src="Assets/image.png" alt="side image">
+#navPage {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
 
-    
-    <div class="aboutDiv">
-        <h1>BLOG NAME</h1>
-        <p>L’offre wrap vous permettra de lancer votre présence en ligne avec un accompagnement stratégique sur-mesure, sans rogner sur la qualité du design et du référencement.stratégique sur-mesure, sans rogner sur la qualité du design et stratégique sur-mesure, sans rogner sur la qualité du design et</p>
-    </div>
+#navPage h2 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 100%;
+    color: #8D8D8D;
 
-    <div class="bottom-bar">
-        <h4>👩🏻‍💻 designpattern</h4>
-        <h4>🔧 softwareEngineering</h4>
-        <h4>🖥️ Java</h4>
-    </div>
+}
 
-        <img src="Assets//blog-Image.png" alt="blog image" id="blogImage">
- 
+.arrow{
+    border: 2px solid red;
+}
 
-    <h4>By Tharushi</h4>
+#navPage i {
+    font-size: 24px;
+    color: #E40020;
+}
 
-    <a href="">Read More</a>
-    
+.page-num {
+    font-size: 24px;
+    font-family: 'Inter';
+    font-weight: 600;
 
-</div>
+}
 
-</section> */
+#navPage h2:not(.arrow):hover {
+    border: none;
+    background: #FE010052;
+    color: #000;
+}
 
+#navPage h2:not(.arrow):active {
+    border: none;
+    background: #FE010052;
+    color: #000;
+}
