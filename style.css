@@ -54,9 +54,9 @@ nav ul li a:hover{
 #searchSection{
     background-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 30px 35px;
+    padding: 20px 35px;
     border-radius: 42px;
 }
 
@@ -131,4 +131,137 @@ nav ul li a:hover{
     color: #E40020;
     
 }
+
+/* --------------------------- blog section -------------------------- */
+
+
+#blogSection{
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.post{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    flex-direction: row;
+    height:500px;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-top: 5%;
+
+}
+
+
+#blogImage{
+    width: 500px;
+    height: 333px;
+    margin-bottom: 50px;
+    
+}
+
+.aboutDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 12px 10px;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 180px;
+}
+
+.aboutDiv h1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 44px;
+}
+
+.aboutDiv p{
+    text-align: left;
+    width: 450px;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.blogImage{
+    width: 46%;
+    height: 74%;
+    position: absolute;
+    right: 39px;
+    top: 44px;
+}
+
+.bottom-bar{
+    display: flex;
+    gap: 80px;
+    position: absolute;
+    bottom: 29px;
+    margin-left: 200px;
+    background: #FEF4F4;
+    padding: 5px 30px;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-size: 18px;
+}
+
+.post a{
+    position: absolute;
+    right: 45px;
+    bottom: 13px;
+    font-size: 18px;
+    font-family: 'Inter';
+    padding: 19px 32px;
+    background: linear-gradient(90deg, #E40020 0%, rgba(254, 1, 0, 0.32) 100%);
+    color: white;
+    border-radius: 30px;
+}
+
+.post h3{
+    position: absolute;
+    right: 3px;
+    padding: 12px 16px;
+    background: #FEF4F4;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-size: 17px;
+}
+
+
+#blogSection .post:last-child{
+    margin-bottom: 15%;
+}
+
+
+
+/* <section class="container" id="blogSection">
+<div class="post">
+
+
+    <img src="Assets/image.png" alt="side image">
+
+    
+    <div class="aboutDiv">
+        <h1>BLOG NAME</h1>
+        <p>L’offre wrap vous permettra de lancer votre présence en ligne avec un accompagnement stratégique sur-mesure, sans rogner sur la qualité du design et du référencement.stratégique sur-mesure, sans rogner sur la qualité du design et stratégique sur-mesure, sans rogner sur la qualité du design et</p>
+    </div>
+
+    <div class="bottom-bar">
+        <h4>👩🏻‍💻 designpattern</h4>
+        <h4>🔧 softwareEngineering</h4>
+        <h4>🖥️ Java</h4>
+    </div>
+
+        <img src="Assets//blog-Image.png" alt="blog image" id="blogImage">
+ 
+
+    <h4>By Tharushi</h4>
+
+    <a href="">Read More</a>
+    
+
+</div>
+
+</section> */
 
