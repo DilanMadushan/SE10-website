@@ -133,6 +133,210 @@ nav ul li a:hover {
 
 }
 
+
+
+/* @media (max-width: 817px) and (min-width: 995px) { */
+@media (max-width: 1230px) {
+
+    #searchBar form input {
+        height: 30px;
+        width: 200px;
+        background-color: #F5F5F5;
+        border: none;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    #searchBar {
+        width: 280px;
+        height: 60px;
+        background-color: #F5F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 30px;
+    }
+
+    #buttonDiv ul li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 138px;
+        height: 60px;
+        font-family: 'Inter';
+        font-size: 17px;
+        font-weight: 600;
+        background: #F4F4F5;
+        color: #000;
+        margin: 10px 10px;
+        border-radius: 30px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+
+    
+}
+
+
+@media (max-width: 955px){
+
+    #searchBar {
+        width: 280px;
+        height: 60px;
+        background-color: #F5F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 30px;
+    }
+
+    #searchSection div form i {
+        margin: 7px 14px;
+        font-size: 23px;
+        color: rgb(179, 171, 171);
+    }
+
+    #searchBar form input {
+        height: 30px;
+        width: 200px;
+        background-color: #F5F5F5;
+        border: none;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    #buttonDiv ul li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 110px;
+        height: 60px;
+        font-family: 'Inter';
+        font-size: 15px;
+        font-weight: 600;
+        background: #F4F4F5;
+        color: #000;
+        margin: 10px 10px;
+        border-radius: 30px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+
+}
+
+
+@media (max-width: 817px){
+
+    #searchBar {
+        width: 238px;
+        height: 60px;
+        background-color: #F5F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 30px;
+    }
+
+    #searchSection div form i {
+        margin: 7px 14px;
+        font-size: 20px;
+        color: rgb(179, 171, 171);
+    }
+
+    #searchBar form input {
+        height: 30px;
+        width: 160px;
+        background-color: #F5F5F5;
+        border: none;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    #buttonDiv ul li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 110px;
+        height: 60px;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 600;
+        background: #F4F4F5;
+        color: #000;
+        margin: 10px 10px;
+        border-radius: 30px;
+        transition: background-color 0.3s, color 0.3s;
+    } 
+
+}
+
+
+@media (max-width: 426px){
+
+    #searchSection {
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px 35px;
+        border-radius: 42px;
+        flex-direction: column;
+    }
+
+    #searchBar {
+        width: 330px;
+        height: 60px;
+        background-color: #F5F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 30px;
+    }
+
+    #searchBar form input {
+        height: 30px;
+        width: 256px;
+        background-color: #F5F5F5;
+        border: none;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    #searchSection ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+
+    
+    #buttonDiv ul li:first-child a {
+        width: 328px;
+        margin-top: 20px;
+    }
+
+    #buttonDiv ul li:nth-child(2) a {
+        width: 145px;
+        
+    }
+
+    #buttonDiv ul li:nth-child(3) a {
+        width: 145px;
+    
+    }
+
+    
+}
+
+
 /* --------------------------- blog section -------------------------- */
 
 
@@ -235,6 +439,8 @@ nav ul li a:hover {
 }
 
 
+
+
 /* ------------------------------ navPage ----------------------------- */
 
 
@@ -285,3 +491,4 @@ nav ul li a:hover {
     background: #FE010052;
     color: #000;
 }
+
